@@ -1,0 +1,38 @@
+{
+  "type": "module",
+  "bin": {
+    "politec": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "express": "^4.17.1",
+    "js-beautify": "^1.14.0",
+    "stump.js": "^1.1.0"
+  },
+  "name": "polite-lang",
+  "description": "Be polite and code with words",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./index.js ./example/main.po"
+  },
+  "author": "YodaLightsabr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yodalightsabr/polite-lang.git"
+  },
+  "keywords": [
+    "polite-lang",
+    "polite",
+    "compiler"
+  ],
+  "bugs": {
+    "url": "https://github.com/yodalightsabr/polite-lang/issues"
+  },
+  "homepage": "https://github.com/yodalightsabr/polite-lang#readme"
+}

@@ -1,0 +1,12 @@
+import express in the package express
+
+please set constant app to run function express with no arguments.
+
+run function get from app with arguments 
+  "/", and
+  please create function with arguments req, res and the code
+    run function send from res with arguments "Hello, world!".
+  ok
+.
+
+run function listen from app with arguments 8080.
